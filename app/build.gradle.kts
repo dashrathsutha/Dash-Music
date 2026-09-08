@@ -22,7 +22,7 @@ android {
     compileSdk = 35
     buildToolsVersion = "35.0.0"
     defaultConfig {
-        applicationId = "com.dash.music"
+        applicationId = "com.zionhuang.music"
         minSdk = 24
         targetSdk = 35
         versionCode = 26
@@ -158,14 +158,14 @@ dependencies {
 
     coreLibraryDesugaring(libs.desugaring)
 
-    "fullImplementation"(platform(libs.firebase.bom))
-    "fullImplementation"(libs.firebase.analytics)
-    "fullImplementation"(libs.firebase.crashlytics)
-    "fullImplementation"(libs.firebase.config)
-    "fullImplementation"(libs.firebase.perf)
-    "fullImplementation"(libs.mlkit.language.id)
-    "fullImplementation"(libs.mlkit.translate)
-    "fullImplementation"(libs.opencc4j)
+   // "fullImplementation"(platform(libs.firebase.bom))
+  //  "fullImplementation"(libs.firebase.analytics)
+  // "fullImplementation"(libs.firebase.crashlytics)
+   // "fullImplementation"(libs.firebase.config)
+  //  "fullImplementation"(libs.firebase.perf)
+   // "fullImplementation"(libs.mlkit.language.id)
+  //  "fullImplementation"(libs.mlkit.translate)
+  //  "fullImplementation"(libs.opencc4j)
 
     implementation(libs.timber)
 }
