@@ -12,9 +12,9 @@ plugins {
 }
 
 if (isFullBuild && System.getenv("PULL_REQUEST") == null) {
-    apply(plugin = "com.google.gms.google-services")
-    apply(plugin = "com.google.firebase.crashlytics")
-    apply(plugin = "com.google.firebase.firebase-perf")
+   // apply(plugin = "com.google.gms.google-services")
+   // apply(plugin = "com.google.firebase.crashlytics")
+   // apply(plugin = "com.google.firebase.firebase-perf")
 }
 
 android {
