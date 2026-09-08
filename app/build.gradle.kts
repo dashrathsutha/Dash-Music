@@ -22,7 +22,7 @@ android {
     compileSdk = 35
     buildToolsVersion = "35.0.0"
     defaultConfig {
-        applicationId = "com.zionhuang.music"
+        applicationId = "com.dash.music"
         minSdk = 24
         targetSdk = 35
         versionCode = 26
