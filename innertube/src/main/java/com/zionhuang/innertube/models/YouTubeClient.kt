@@ -25,7 +25,7 @@ data class YouTubeClient(
     companion object {
         private const val REFERER_YOUTUBE_MUSIC = "https://music.youtube.com/"
 
-        private const val USER_AGENT_WEB = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36"
+        private const val USER_AGENT_WEB = "com.google.android.apps.youtube.music/6.41.52 (Linux; U; Android 12)"
         private const val USER_AGENT_ANDROID = "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Mobile Safari/537.36"
         private const val USER_AGENT_IOS = "com.google.ios.youtube/19.29.1 (iPhone16,2; U; CPU iOS 17_5_1 like Mac OS X;)"
 
@@ -51,10 +51,10 @@ data class YouTubeClient(
         )
 
         val WEB_REMIX = YouTubeClient(
-            clientName = "WEB_REMIX",
+            clientName = "ANDROID_MUSIC",
             clientVersion = "1.20220606.03.00",
             api_key = "AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30",
-            userAgent = USER_AGENT_WEB,
+            userAgent = USER_AGENT_ANDROID,
             referer = REFERER_YOUTUBE_MUSIC
         )
 
